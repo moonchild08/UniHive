@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars"
+    android:fitsSystemWindows="true"
+    tools:context=".home">
+
+
+    <ImageButton
+        android:id="@+id/academics"
+        android:layout_width="146dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/academics"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/geektalks"
+        android:layout_width="146dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/geektalks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mygang"
+        android:layout_width="146dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="720dp"
+        android:background="@drawable/tutorpoint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/thriftit"
+        android:layout_width="146dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="396dp"
+        android:background="@drawable/thriftit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tutorpoint"
+        android:layout_width="146dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="578dp"
+        android:background="@drawable/mygang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/cust_diag"
+        android:padding="10dp"
+        android:text="All 5 in 1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="This page has options to view daily timetable, subject and related faculty and a place to get academic announcements."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="226dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="233dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="This page can be used as a platform for students where they can share their blogposts or anything that they wish to related to tech."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="231dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="This option will help students to by,sell, or rent things. This will not only solve their money issues but also help them reuse things."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="233dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="602dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="Here you can make friends and group chats with people of similar interests and have discussions with them."
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="243dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="748dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="This page will let students share notes and books of the subjects they wish to."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

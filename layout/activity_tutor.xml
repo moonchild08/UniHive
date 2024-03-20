@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/only_uni"
+    android:fitsSystemWindows="true"
+    tools:context=".tutor">
+
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tutor_page"
+        android:layout_width="235dp"
+        android:layout_height="205dp"
+        android:layout_marginBottom="526dp"
+        android:src="@drawable/tutorpoint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/java"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="16dp"
+        android:text="Design and Analysis of Algorithms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dd"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="179dp"
+        android:text="Computer Networks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dm"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="16dp"
+        android:text="Operating System"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/maths"
+        android:layout_width="264dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginEnd="131dp"
+        android:text="System and Network Security"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/phy"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="16dp"
+        android:text="Biological Machines"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
